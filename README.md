@@ -1,3 +1,4 @@
 # LCTC
 Light Color Temperature Control System
 This repository presents mainly the code lisitngs of a platform prototype based on the low-cost and low-power Arduino UNO R4 WiFi BLE (Bluetooth Low Energy) board, which enables experiments with LED color temperature control approaches. 
+The developed architectural platform utilizes a mobile (wearable) spectrophotometer unit, as an embedded sensing device, positioned approximately near at person’s eye level, and used to sense and retrieve the light parameters used to estimate the optimum color tem-perature levels. The master control module communicates wirelessly over 2.4GHz BLE with a slave module, which receives the color temperature and dimming control values and drives accordingly a cool and warm white LED, whenever a change in light color temperature is needed (in the rest of the time remains idle, conserving energy).
